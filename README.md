@@ -1,19 +1,23 @@
 MOBILE GAME DEVELOPMENT FINAL PROJECT REPORT
+
 TOPIC: Romp of Mazes (Maze Adventure Game)
 
 -------------------------------------------------------
 GAME DESIGN DOCUMENT (GDD) TEMPLATE
+
 Game Name: Romp of Mazes
 Genre: 2D Adventure Game
 
 -------------------------------------------------------
 Game Elements
+
 There are 2D game objects such as walls, doors, keys, players, slimes, etc.
 
 Player: Only one player can play the game at a time.
 
 -------------------------------------------------------
 TECHNICAL SPECIFICATIONS
+
 Technical Form: The game consists of 2D objects like walls, doors, keys, players, and slimes.
 
 View: Romp of Mazes is a 2D game offering a top-down view of characters and objects like walls, doors, and other elements.
@@ -26,6 +30,7 @@ Device: PC
 
 -------------------------------------------------------
 GAMEPLAY
+
 Romp of Mazes is a single-player game where the user controls the player's movements. The game consists of complex mazes separated by levels. Upon completing one level, the player advances to the next. The ultimate objective is to save the princess.
 
 Game Objects: Walls, doors, keys, and slimes (enemies).
@@ -55,12 +60,14 @@ Replay or quit.
 
 -------------------------------------------------------
 Key Features
+
 Goal: Save the princess after overcoming all challenges.
 Challenge: Difficulty increases with each level.
 No Retry for Entire Game: Players must restart a level upon failing, but progress within the game is continuous.
 
 -------------------------------------------------------
 DESIGN DOCUMENT
+
 Walls:
 
 Rigid game objects that limit player motion.
@@ -85,17 +92,20 @@ The player's objective is to save the princess.
 
 -------------------------------------------------------
 DESIGN GUIDELINES
+
 All game objects must have a Rigidbody and Collider attached for collision-based gameplay mechanics.
 The player must collect all keys and avoid slimes to complete each level.
 
 -------------------------------------------------------
 GAME DESIGN DEFINITIONS
+
 Win State: When the player touches the princess, the game displays a “You Win” screen.
 No Lose State: Upon failure (colliding with a slime), the level restarts automatically.
 Level Progression: Collect all keys, open the door, and pass through to the next level.
 
 -------------------------------------------------------
 PLAYER DEFINITION
+
 The player moves using keyboard controls (A, D, W, S) and interacts with the game environment.
 
 Player Properties:
@@ -113,6 +123,7 @@ Avoid slimes to avoid restarting the level.
 
 -------------------------------------------------------
 USER INTERFACE (UI)
+
 The UI is minimal:
 
 Keyboard Controls: A, D for horizontal movement, and W, S for vertical movement.
@@ -121,6 +132,7 @@ Escape Key: Allows players to pause or quit.
 
 -------------------------------------------------------
 FUTURE SCOPE
+
 The game can be improved by:
 
 Adding more levels.
